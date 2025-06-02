@@ -1,0 +1,149 @@
+.lists {
+	padding: 2rem 1rem;
+	color: white;
+	font-family: 'Pixelify Sans', sans-serif;
+}
+
+.top-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.date-box {
+	background: #ffe3ec;
+	border-radius: 20px;
+	padding: 0.75rem;
+	width: 145px;
+	min-height: 145px;
+	box-shadow: 5px 5px 0 #eebbc3, 2px 2px 12px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.date-box p,
+.date-box h2 {
+	color: #333333e2;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.date-box .weekday,
+.date-box .month {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.day-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem 0;
+}
+
+.day-circle {
+	width: 60px;
+	height: 60px;
+	background-color: #ffb6c1;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333333e2;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.progress-container {
+	background-color: #ffe3ec;
+	padding: 1rem;
+	border-radius: 20px;
+	box-shadow: 5px 5px 0 #eebbc3, 2px 2px 12px rgba(0, 0, 0, 0.05);
+	text-align: center;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.progress-title {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin: 0 0 0.8rem 0;
+	color: #333333e2;
+}
+
+.progress-bar-background {
+	width: 100%;
+	height: 16px;
+	background-color: #f6d7e0;
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.progress-fill {
+	height: 100%;
+	background-color: #ff69b4;
+	border-radius: 999px;
+	transition: width 0.3s ease;
+}
+
+.praise-message {
+	font-size: 1rem;
+	color: #ff69b4;
+	margin: 0.9rem 0 0 0;
+}
+
+.task-list {
+	list-style: none;
+	padding: 0;
+	margin-top: 2rem;
+	text-align: left;
+}
+
+.task-list li {
+	padding: 0.75rem 0;
+	cursor: pointer;
+	font-size: 1.1rem;
+	transition: 0.2s;
+}
+
+.task-list-emoji {
+	margin-right: 1rem;
+}
+
+.task-list li.done {
+	text-decoration: line-through;
+	color: #33333363;
+}
+
+.finish-btn {
+	margin: 2rem auto 0;
+	width: 200px;
+	padding: 1rem;
+	background: #333333f7;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	font-size: 1rem;
+	cursor: pointer;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.finish-btn:hover {
+	transform: scale(1.05);
+	background: #252525;
+}

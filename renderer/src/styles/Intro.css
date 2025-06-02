@@ -1,0 +1,43 @@
+.intro {
+	min-height: 100vh;
+	display: flex;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 30px;
+	color: white;
+}
+
+.intro h1 {
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+
+.intro .emoji {
+	font-size: 150px;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+
+.intro button {
+	padding: 10px 24px;
+	font-size: 30px;
+	background-color: #fdf3dc;
+	color: #fb95be;
+	border: none;
+	border-radius: 14px;
+	cursor: pointer;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+	letter-spacing: 1px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+	transform: scale(1);
+}
+
+.intro button:hover {
+	transform: scale(1.07);
+	background-color: #fcecc9;
+	box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
