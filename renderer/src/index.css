@@ -4,7 +4,12 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background: radial-gradient(circle, #ef4a8c 0%, #fbd1e2 100%);
+	background: radial-gradient(
+		circle at 50% 40%,
+		#ef4a8c 0%,
+		#fca0c5 40%,
+		#fbe8f0 100%
+	);
 	font-family: 'Pixelify Sans', sans-serif;
 }
 

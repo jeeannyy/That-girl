@@ -7,7 +7,6 @@ interface ListsProps {
 }
 
 const praiseMessages = [
-	'Main character energy today 💫',
 	'Another task? Handled. 💁🏻‍♀️',
 	'Pookie just finished another task 😗',
 	'You’re glowing ✨',
@@ -64,7 +63,7 @@ function Lists({ routine }: ListsProps) {
 					</div>
 
 					<p className='praise-message'>
-						{praise || 'You are healing and your ex is balding 🧑🏻‍🦲'}
+						{praise || 'Main character energy today 💫'}
 					</p>
 				</div>
 			</div>
