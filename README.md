@@ -7,7 +7,8 @@ A cute self-care and desktop productivity app.
 
 ## 🎀 Demo 
 
-![baddie2](https://github.com/user-attachments/assets/5d914b7f-5c52-440d-a322-c965e5b59431)
+![baddie3](https://github.com/user-attachments/assets/0849b8d8-6810-41b7-97af-0761d311086d)
+
 
 
 
